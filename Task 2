@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+	void swapvalues(int a, int b) {
+		cout<<" a "<<" = "<<a<<endl;
+		cout<<" b "<<" = "<<b<<endl;
+		 
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		cout<<" a "<<" = "<<a<<endl;
+		cout<<" b "<<" = "<<b<<endl;
+}
+	int main(){
+	
+	
+	int x,y;
+	cout<<"Enter first number : ";
+	cin>>x;
+	cout<<"Enter second number : ";
+	cin>>y;
+	
+	swapvalues(x,y);
+	return 0;
+	
+}
