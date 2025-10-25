@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+    double celtofah(int cel);
+    double celtofah(int cel){
+    	double fah = (cel)* 9/5 + 32;
+    	return fah;
+	}
+
+int main(){
+	int x;
+	cout<<"Enter temperature in celcius : ";
+	cin>>x;
+	
+	cout<<"Temperature in  fahrenhite "<<celtofah(x);
+	return 0;
+	
+	
+}
