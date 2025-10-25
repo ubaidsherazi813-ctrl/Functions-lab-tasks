@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std; 
+
+   int smallnum(int a ,int  b ,int  c);
+   	
+int main(){
+	int x, y, z;
+	cout<<"Enter first number : ";
+	cin>>x;
+	cout<<"Enter second number : ";
+	cin>>y;
+	cout<<"Enter third number : ";
+	cin>>z;
+	
+	cout<<"The smallest number is "<<smallnum(x,y,z);
+	
+
+	
+}
+    int smallnum(int a ,int  b ,int  c){
+   	if(a<b && a<c){
+   	    return a;
+   	}
+   	else if(a>b && b<c){
+   	    return b;
+   	}
+   	else{
+   	    return c;
+   	}
+}
