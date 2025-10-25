@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+	
+	int x;
+	cout<<"Enetr x value : ";
+	cin>>x;
+	
+	cout<<"The square root of "<<x<<" is "<<sqrt(x)<<endl;
+	cout<<"The cuberoot root of "<<x<<" is "<<cbrt(x)<<endl;
+	cout<<"The power of "<<x<<" is "<<pow(x,2)<<endl;
+	return 0;
+}
