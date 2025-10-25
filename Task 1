@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+    void birthyear(string name , int age);
+int main(){
+	string name;
+	int age;
+	cout<<"Enter your name : ";
+	cin>>name;
+	cout<<"Enter your age : ";
+	cin>>age;
+	birthyear(name,age);
+	return 0;
+}
+void birthyear(string name, int age){
+	cout<<"Hi "<<name<<" you were born in "<<2025-age;
+}
